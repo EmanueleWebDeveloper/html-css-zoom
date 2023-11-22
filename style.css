@@ -9,7 +9,6 @@ html{
 }
 
 body{
-    border: 3px solid red;
     background-color: black;
 }
 
@@ -24,7 +23,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    margin-top: 40px;
+    margin-top: 60px;
     justify-content: center;
 }
 .flex-pics{
@@ -46,6 +45,7 @@ main{
     right: 0;
     color: white;
     opacity: 0.6;
+    margin-top: -60px;
 }
 
 .pos span{
@@ -62,25 +62,16 @@ footer{
     width: 100%;
     justify-content: space-between;
     text-transform: capitalize;
-    height: 50px;
+    height: 70px;
+    
 }
-/* footer div{
-  display: flex;
-  text-align: center;
-  list-style-type: none;
-  color: white;
-  display: flex;
-  gap: 10px;
-} */
-/* footer div ul li{
-display: flex;
-justify-content: space-between;
 
-} */
 footer div{
     display: flex;
     justify-content: space-between;
     gap: 10px;
+    color: white;
+    align-items: center;
 }
 
 ul{
@@ -93,5 +84,10 @@ li{
 footer  h4{
     color: red;
     background-color: grey;
+    height: 100%;
+    display: flex;
+   align-items: center;
 }
+
+
 
