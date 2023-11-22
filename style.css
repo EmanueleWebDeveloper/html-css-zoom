@@ -24,9 +24,9 @@ header{
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    
+
 }
 .flex-pics{
-    flex-basis: calc(100% / 7 -1em);
+    flex-basis: calc(100% / 7 - 1em);
 }
 
