@@ -9,8 +9,8 @@ html{
 }
 
 body{
-    
     border: 3px solid red;
+    background-color: black;
 }
 
 img{
@@ -24,9 +24,23 @@ header{
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-
+    margin-top: 40px;
+    justify-content: center;
 }
 .flex-pics{
     flex-basis: calc(100% / 7 - 1em);
 }
 
+.pos{
+    position: absolute;
+    right: 0;
+    color: white;
+}
+
+.pos span{
+    background-color: lightgray;
+}
+body .container{
+    position: relative;
+   
+}
