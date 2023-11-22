@@ -29,12 +29,23 @@ header{
 }
 .flex-pics{
     flex-basis: calc(100% / 7 - 1em);
+    position: relative;
+}
+.pincopallo{
+    position: absolute;
+    color: white;
+    bottom: 5px;
+    left: 0;
+    background-color: lightgray;
+    font-size: 12px;
+    opacity: 0.6;
 }
 
 .pos{
     position: absolute;
     right: 0;
     color: white;
+    opacity: 0.6;
 }
 
 .pos span{
@@ -43,4 +54,28 @@ header{
 body .container{
     position: relative;
    
+}
+
+main{
+    background-color: #222222;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    text-transform: capitalize;
+ 
+}
+main div ul{
+  display: flex;
+  gap: 30px;
+}
+
+ul{
+    list-style-type: none;
+    color: white;
+}
+
+
+main div h4{
+    color: red;
+    background-color: grey;
 }
