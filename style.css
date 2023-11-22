@@ -62,7 +62,8 @@ main{
     width: 100%;
     justify-content: space-between;
     text-transform: capitalize;
- 
+    height: 50px;
+ font-weight: 10px;
 }
 main div ul{
   display: flex;
@@ -75,7 +76,7 @@ ul{
 }
 
 
-main div h4{
+main  h4{
     color: red;
     background-color: grey;
 }
