@@ -18,7 +18,7 @@ img{
     height: auto;
 }
 
-header{
+main{
     width: 80%;
     margin: 0 auto; 
     display: flex;
@@ -56,27 +56,42 @@ body .container{
    
 }
 
-main{
+footer{
     background-color: #222222;
     display: flex;
     width: 100%;
     justify-content: space-between;
     text-transform: capitalize;
     height: 50px;
- font-weight: 10px;
 }
-main div ul{
+/* footer div{
   display: flex;
-  gap: 30px;
+  text-align: center;
+  list-style-type: none;
+  color: white;
+  display: flex;
+  gap: 10px;
+} */
+/* footer div ul li{
+display: flex;
+justify-content: space-between;
+
+} */
+footer div{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
 }
 
 ul{
     list-style-type: none;
-    color: white;
+    
 }
-
-
-main  h4{
+li{
+    font-size: 15px;
+}
+footer  h4{
     color: red;
     background-color: grey;
 }
+
